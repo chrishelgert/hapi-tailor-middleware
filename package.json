@@ -1,0 +1,29 @@
+{
+  "name": "hapi-tailor-middleware",
+  "version": "1.0.0",
+  "description": "tailor middleware for hapi.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint --format=node_modules/eslint-formatter-pretty lib/",
+    "test": "npm run lint && jest --coverage"
+  },
+  "keywords": [
+    "hapi.js",
+    "tailor"
+  ],
+  "author": "chrishelgert",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.11.0",
+    "eslint-config-airbnb-base": "^10.0.1",
+    "eslint-formatter-pretty": "^1.1.0",
+    "eslint-plugin-import": "2.1.0",
+    "jest": "^17.0.3"
+  },
+  "dependencies": {
+    "node-tailor": "^1.1.0"
+  },
+  "peerDependencies": {
+    "hapi": "^15.2.0"
+  }
+}
