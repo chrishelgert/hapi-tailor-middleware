@@ -25,6 +25,6 @@
     "node-tailor": "^1.1.0"
   },
   "peerDependencies": {
-    "hapi": "^15.2.0"
+    "hapi": "^16.0.0"
   }
 }
