@@ -18,9 +18,9 @@ describe('hapi-tailor-middleware', () => {
     requestHandler = jest.fn();
 
     Tailor.mockImplementation(() => ({ requestHandler }));
-   });
+  });
 
-  it('should set the passed functions to Tailor', () => {
+  it('should set the passed options to Tailor', () => {
     register(server, options, next);
 
     expect(Tailor.mock.calls[0][0]).toBe(options);
