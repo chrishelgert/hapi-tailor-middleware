@@ -13,6 +13,13 @@
   ],
   "author": "chrishelgert",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/chrishelgert/hapi-tailor-middleware.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chrishelgert/hapi-tailor-middleware/issues"
+  }
   "devDependencies": {
     "coveralls": "^2.11.15",
     "eslint": "^3.11.0",
