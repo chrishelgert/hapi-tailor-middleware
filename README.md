@@ -47,4 +47,4 @@ server.register([{
 5. Create new Pull Request
 
 ## License
-Copyright (c) 2016 Chris Helgert, Daniel Bayerlein. See [License](./LICENSE) for details.
+Copyright (c) 2016-2017 Chris Helgert, Daniel Bayerlein. See [License](./LICENSE) for details.
