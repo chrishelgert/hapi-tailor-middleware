@@ -29,7 +29,7 @@
     "jest": "^18.1.0"
   },
   "dependencies": {
-    "node-tailor": "^1.1.0"
+    "node-tailor": "^2.0.0"
   },
   "peerDependencies": {
     "hapi": "^16.0.0"
