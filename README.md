@@ -1,7 +1,8 @@
 # hapi-tailor-middleware
 
 [![npm version](https://badge.fury.io/js/hapi-tailor-middleware.svg)](https://badge.fury.io/js/hapi-tailor-middleware)
-[![Build Status](https://travis-ci.org/chrishelgert/hapi-tailor-middleware.svg?branch=master)](https://travis-ci.org/chrishelgert/hapi-tailor-middleware) [![Coverage Status](https://coveralls.io/repos/github/chrishelgert/hapi-tailor-middleware/badge.svg?branch=master)](https://coveralls.io/github/chrishelgert/hapi-tailor-middleware?branch=master)
+[![Build Status](https://travis-ci.org/chrishelgert/hapi-tailor-middleware.svg?branch=master)](https://travis-ci.org/chrishelgert/hapi-tailor-middleware)
+[![codecov](https://codecov.io/gh/chrishelgert/hapi-tailor-middleware/branch/master/graph/badge.svg)](https://codecov.io/gh/chrishelgert/hapi-tailor-middleware)
 
 hapi-tailor-middleware is a [tailor](https://github.com/zalando/tailor)-middleware for [hapi.js](https://github.com/hapijs/hapi).
 
