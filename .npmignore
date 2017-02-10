@@ -1,0 +1,6 @@
+__tests__
+coverage
+.eslintignore
+.eslintrc.yml
+.gitignore
+.travis.yml
