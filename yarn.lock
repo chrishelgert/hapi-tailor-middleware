@@ -1820,9 +1820,9 @@ node-notifier@^5.0.1:
     shellwords "^0.1.0"
     which "^1.2.12"
 
-node-tailor@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/node-tailor/-/node-tailor-2.0.0.tgz#424de5b63124ca4031579d1b3c82f541d9935cc5"
+node-tailor@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/node-tailor/-/node-tailor-2.0.2.tgz#e37d8d836be1e1310c7a0916e709bebdc73f6ac4"
   dependencies:
     parse-link-header "^0.4.1"
     parse5 "^3.0.1"
