@@ -73,7 +73,7 @@ describe('hapi-tailor-middleware', () => {
       it('should call reply.continue when no error occurs else reply', () => {
         const cb = tailorArgs[2]
 
-        cb('error')
+        cb('error') // eslint-disable-line standard/no-callback-literal
         expect(reply.mock.calls.length).toBe(1)
 
         cb()
