@@ -28,7 +28,7 @@
     "standard": "^10.0.1"
   },
   "dependencies": {
-    "node-tailor": "^2.1.0"
+    "node-tailor": "^2.3.0"
   },
   "peerDependencies": {
     "hapi": "^16.0.0"
