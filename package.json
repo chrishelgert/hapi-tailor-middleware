@@ -25,10 +25,10 @@
     "husky": "^0.13.3",
     "jest": "^19.0.2",
     "snazzy": "^7.0.0",
-    "standard": "^10.0.1"
+    "standard": "^10.0.2"
   },
   "dependencies": {
-    "node-tailor": "^2.1.0"
+    "node-tailor": "^2.3.0"
   },
   "peerDependencies": {
     "hapi": "^16.0.0"
