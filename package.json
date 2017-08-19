@@ -25,7 +25,7 @@
     "husky": "^0.14.0",
     "jest": "^20.0.0",
     "snazzy": "^7.0.0",
-    "standard": "^10.0.2"
+    "standard": "^10.0.3"
   },
   "dependencies": {
     "node-tailor": "^3.0.0"
@@ -34,8 +34,8 @@
     "hapi": "^16.0.0"
   },
   "standard": {
-    "env": {
-      "jest": true
-    }
+    "env": [
+      "jest"
+    ]
   }
 }
