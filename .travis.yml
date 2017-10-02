@@ -1,10 +1,19 @@
 language: node_js
 node_js:
   - stable
+
 cache:
   yarn: true
   directories:
     - node_modules
 
+before_install: yarn global add greenkeeper-lockfile@1
+before_script: greenkeeper-lockfile-update
+after_script: greenkeeper-lockfile-upload
+
 after_success:
-    - bash <(curl -s https://codecov.io/bash)
+  - bash <(curl -s https://codecov.io/bash)
+
+env:
+  matrix:
+    secure: EBt7k9LzVq60TL7ZA68jAklFrUSqJEbI41VGZQTMPheOBq63K9Fs6gfnrcKSV/rSt3Wcu9cCW1T4lN8vIThq52QyrvwJPnpMRwEX5vxpgdiGFVgi1JPAZx1hhFKrY2NIBIG4FXakpVCN3kCcyCTOCpO8dNcCLn1x5ZMoW6/grkpGYGksi7tcI7QMI+LzcGt5P0JFbvpmuw8+xYupspmnUE0Bh9mEQFIT6uvidiyI1zmBXcqmwljeO49eL5TtnA5ZLEMpiZ0OF1FOeRnBZcX9zc1agQWckkM5CvOxLtG4fTwLJ9kM4/jPDQdHjfwzq2YwG4YdYJBIQBrxniXcMDIL/UBbKMMPmmGkWmwjdBlh4Gf+Etlysfi2y+ogVH4/foTrdykOQ2bHbggMq1eKSN7nanxKO20CVH7hPWFQg1INB9DJDhr6zPHtMUdOnu64Xwp+oAcLhv5UW76U5jzl8E4tm/QjcFxrZDsmOsSPG2E6iCJuLdYIg2GUslcIA1rEnSsc6ZhYXpJe7aALGXMPoMYrPoa1VPGZe3Sri5h8+SbFTf+PRFc4eWA2nHr6PoLoHnAV9ESPvY/A+C8hybz1JWbhds20CXHADGQxTy8jCXlZSUvZd5wSuLIhAZlsMI7uv0+fdvQbvfIW7hx/IAYnDai8vH1Jy1CzlV/dGimaUPIQ9gc=
