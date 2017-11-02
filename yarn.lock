@@ -2203,9 +2203,9 @@ node-pre-gyp@^0.6.36:
     tar "^2.2.1"
     tar-pack "^3.4.0"
 
-node-tailor@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/node-tailor/-/node-tailor-3.3.0.tgz#9cf6986759db9bd3f22130d012775c8a079b2b9e"
+node-tailor@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/node-tailor/-/node-tailor-3.4.0.tgz#29cc692637e4aa2d8b51a6f394c89be0f507d9c3"
   dependencies:
     http-link-header "^0.8.0"
     parse5 "^3.0.2"
